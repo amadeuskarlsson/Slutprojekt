@@ -1,3 +1,7 @@
+body, html{
+  height: 100%;
+}
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.png");
   height: 70%;
@@ -32,3 +36,23 @@
   color: white;
 }
 
+.box {
+      border: 1px solid black;
+      padding: 10px;
+      background-color: #f2f2f2;
+      float: left;
+      width: 50%;
+    }
+div.center{
+  text-align: center;
+}
+
+hr.solid{
+  border-top: 5px solid #bbb;
+}
+
+.column{
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
