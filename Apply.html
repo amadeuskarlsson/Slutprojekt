@@ -1,4 +1,4 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
  <meta charset="utf-8">
@@ -40,4 +40,83 @@
     <a class="nav-link" href="Apply.html">Apply</a>
   </li>
 </ul>
- 
+<!-- 2 billder med cs i html för att inte få dem på varandra under varandra, hur detta löstes var att gör clumn 50% mindre vilket resultera i att 1/4 bilder blev 1/2 bildre vilet gör att funkar vid sidan -->
+<div class="containter">
+<div class="row">
+  <div class="column" style="width:50%">
+    <img src="0002.png" style="width:100%">
+  </div>
+  
+  <div class="column" style="width:50%">
+    <img src="hero.png" style="width:100%">
+  </div>
+  </div>
+ </div>
+
+
+
+<!--  här komer input och lable boksarna för kommande 7 saker i fårmelaret-->
+<input type="name" ="text" id="name" required>
+<label for="name">Name</label>
+<br>
+
+<input type="förnamn" id="Förnamn" required>
+<label for="förnamn"> förnamn</label>
+<br>
+
+
+<input type="efternamn" id="efternamn" required>
+<label for="efternamn"> eftenamn</label>
+<br>
+
+<input type="c/o" id="c/o" required>
+<label for="c/o"> c/o</label>
+<br>
+
+<input type="Adress" id="eftenman" required> 
+<label for="Adress"> Adress</label>
+<br>
+
+<input type="ort" id="ort" required>
+<label for="Ord"> Ort </label>
+<br>
+
+<input type=telefon id="telefon" required> 
+<label for="telfon"> telefon </label>
+<br>
+
+<!-- här börjar frågorna i fårmeläret  -->
+
+  <div class="box"> 
+<input type="checkbox" id="kontakt" name="tfn" value="Telefon">
+
+  <label for="telefon"> Telefon</label><br>
+
+  <br>
+
+  <input type="checkbox" id="kontakt" name="epost" value="epost">
+
+  <label for="epost"> epost</label><br>
+
+  <br>
+
+  <input type="checkbox" id="kontakt" name="sms" value="sms">
+
+  <label for="sms"> SMS</label><br>
+
+  <br>
+ </div>
+<!-- här börjar den andra boksen med fråga om du är svenska tyker man på en  kanpp anars ange land i en lable -->
+
+  <div class="box"> 
+  <div class="contaner">
+<input type="checkbox" id="kontakt" name="sms" value="sms">
+
+  <label for="sms"> svensk</label><br>
+
+  <br>
+
+<input type="ange land" id="ange land" required> 
+<label for="ange land"> ange land </label>
+</div>
+<!--här slutar den andra boxsen  -->
