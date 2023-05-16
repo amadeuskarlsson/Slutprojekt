@@ -56,67 +56,88 @@
 
 
 <!--  här komer input och lable boksarna för kommande 7 saker i fårmelaret-->
-<input type="name" ="text" id="name" required>
-<label for="name">Name</label>
+<!-- här börjar ochså en form tag som gör så att  man som vanar om man fyller i eller ej -->
+<form>
+<input type="Personnummer (ÅÅÅÅMMDD-XXXX) *" ="text" id="Personnummer (ÅÅÅÅMMDD-XXXX) *" required>
+<label for="Personnummer (ÅÅÅÅMMDD-XXXX) *">Personnummer (ÅÅÅÅMMDD-XXXX) *</label>
 <br>
 
 <input type="förnamn" id="Förnamn" required>
-<label for="förnamn"> förnamn</label>
+<label for="förnamn"> Förnamn*</label>
 <br>
 
 
 <input type="efternamn" id="efternamn" required>
-<label for="efternamn"> eftenamn</label>
+<label for="efternamn"> Eftenamn*</label>
 <br>
 
-<input type="c/o" id="c/o" required>
+<input type="c/o" id="c/o" >
 <label for="c/o"> c/o</label>
 <br>
 
 <input type="Adress" id="eftenman" required> 
-<label for="Adress"> Adress</label>
+<label for="Adress"> Adress*</label>
 <br>
+
+<input type="postnumer" id="postnumer" required >
+<label for="pstnumer"> Postnummer*</label>
+<br>
+
 
 <input type="ort" id="ort" required>
-<label for="Ord"> Ort </label>
+<label for="Ord"> Ort* </label>
 <br>
 
-<input type=telefon id="telefon" required> 
-<label for="telfon"> telefon </label>
+<input type='telefon' id="telefon" > 
+<label for="telfon"> Telefon </label>
 <br>
+<input type="email" id="email" name="email" >
+<label for="email"> Email </label>
+<br>
+<br>
+<!-- här slutar alla frågor -->
+
 
 <!-- här börjar frågorna i fårmeläret  -->
 
   <div class="box"> 
+  <p> hur vill du bliva kontaktad</p>
 <input type="checkbox" id="kontakt" name="tfn" value="Telefon">
+<label for="telefon"> Telefon</label><br>
 
-  <label for="telefon"> Telefon</label><br>
+<br>
 
-  <br>
+<input type="checkbox" id="kontakt" name="sms" value="sms">
+<label for="sms"> SMS</label><br>
 
-  <input type="checkbox" id="kontakt" name="epost" value="epost">
+<br>
 
-  <label for="epost"> epost</label><br>
-
-  <br>
-
-  <input type="checkbox" id="kontakt" name="sms" value="sms">
-
-  <label for="sms"> SMS</label><br>
-
-  <br>
- </div>
+<input type="checkbox" id="kontakt" name="ëpost" value="epost">
+<label for="sms"> Epost</label><br>
+<br>
+<br>
+</div>
 <!-- här börjar den andra boksen med fråga om du är svenska tyker man på en  kanpp anars ange land i en lable -->
 
   <div class="box"> 
   <div class="contaner">
+  <p>vilket språk kan du</p>
 <input type="checkbox" id="kontakt" name="sms" value="sms">
 
   <label for="sms"> svensk</label><br>
 
   <br>
 
-<input type="ange land" id="ange land" required> 
+<input type="ange land" id="ange land" > 
 <label for="ange land"> ange land </label>
+<!-- här är en submit knap -->
+<br>
+<input type="submit" value="Skicka">
+</form>
+<!-- här sluttar from tag vanigarna att du inte har skrivigt i boxsen funktionen-->
+<br>
+<br>
+<br>
+
 </div>
 <!--här slutar den andra boxsen  -->
