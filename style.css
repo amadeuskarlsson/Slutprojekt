@@ -1,7 +1,9 @@
+/* varje punkt är en överskrift som förklara vad klass punkten gör.*/
+
 body, html{
   height: 100%;
-    font-family: 'Montserrat', sans-serif;
-    padding: 15px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
 }
 
 .hero-image {
@@ -20,7 +22,7 @@ body, html{
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-   font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .hero-text button {
@@ -32,7 +34,7 @@ body, html{
   background-color: #ddd;
   text-align: center;
   cursor: pointer;
-   font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .hero-text button:hover {
@@ -41,14 +43,14 @@ body, html{
 }
 
 .box {
-      border: 1px solid black;
-      padding: 10px;
-      background-color: #f2f2f2;
-      float: left;
-      width: 50%;
-    }
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #f2f2f2;
+  float: left;
+  width: 50%;
+}
 div.center{
-  text-align: center;
+    text-align: center;
 }
 
 hr.solid{
@@ -56,13 +58,13 @@ hr.solid{
 }
 
 .column{
-  float: left;
-  width: 50%;
-  padding: 5px;
+    float: left;
+    width: 50%;
+    padding: 5px;
 }
 .curriculum{
-width: 75%;
-height: auto;
+  width: 75%;
+  height: auto;
 
 }
 
